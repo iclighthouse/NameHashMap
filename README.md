@@ -1,6 +1,6 @@
 # NameHashMap
 
-NameHashMap is a mapping table of the name and hash of candid canister.
+NameHashMap is a name-hash mapping table canister.
 
 ## Getting started
 
