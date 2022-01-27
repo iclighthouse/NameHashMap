@@ -1,0 +1,9 @@
+type NameHashMap = 
+ service {
+   fromHash: (nat) -> (vec text) query;
+   fromHashs: (vec nat) -> (vec vec text) query;
+   fromName: (text) -> (nat);
+   fromNames: (vec text) -> (vec nat);
+   wallet_receive: () -> ();
+ };
+service : () -> NameHashMap
